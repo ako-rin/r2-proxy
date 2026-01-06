@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://r2-record.niozi.workers.dev/$1"
+    }
+  ]
+}
