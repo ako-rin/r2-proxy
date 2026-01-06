@@ -4,5 +4,16 @@
       "source": "/(.*)",
       "destination": "https://r2-record.niozi.workers.dev/$1"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }
